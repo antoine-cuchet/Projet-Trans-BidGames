@@ -1,0 +1,39 @@
+Cahier des charges fonctionnelles fourni par BidGames
+
+Front-end :
+
+1- Les objets sont exposés au public une à plusieurs fois avant la vente aux enchères :
+Liste des adresse/heure
+
+2- Chaque vente doit être définie :
+- Adresse, heure, commissaire-priseur
+- Les lots et les objets qui la composent sont décrits précisément (avec photo)
+- Liste des produits vendus et leur adjudications (prix vendu)3- Voir les ventes à venir selon des critères :
+	- Type de produit
+	- Jour de vente
+	
+4- Liste des ventes spécifiques prévues avec carte :
+- La carte présente les ventes à venir avec des couleurs en fonction de la catégorie de vente
+
+5- Il est possible, par l’upload d’une ou plusieurs photos, de faire estimer son produit par un ou plusieurs commissaires-priseurs avant de l’envoyer ou de le déposer à la vente.
+
+6- Les ventes peuvent aussi se faire en « achat flash » (sans passer par une enchère) suite à l’expertise du commissaire-priseur et à l’accord du vendeur.
+
+7- On peut taguer une vente avec un signe « favori » et la placer dans une liste de favoris.
+
+8- L’objet indique la moyenne des estimations. La vente a lieu en réel, dans une salle des ventes, où le public est accueilli. Lors de la vente, en live, les acheteurs peuvent surenchérir à la fois en salle et sur internet. La vente est bornée dans le temps.
+
+9- Le résultat des ventes est publié au plus tôt via l’affichage d’une liste et son téléchargement possible en pdf.
+
+
+Back-end :
+
+1- CRUD sur les produits, commissaire-priseur, lieu d’enchères, enchères, clients (acheteurs et vendeurs)
+
+2- Pour vendre des jeux, il est nécessaire de les envoyer à un dépôt (le vendeur peut voir une liste) où ils seront réceptionnés et stockés sur le lieu même.
+
+3- Les cartes sont vendues par paquet ou à l’unité. Dans tous les cas elles se voient attribuées un numéro de lot. Le numéro de lot concerne un ou plusieurs produits.
+
+4- La vente est prévue à une date/heure et dirigée par un commissaire-priseur.
+
+5- Dans le cadre d'un paiement CB, il est proposé d’obtenir son produit par correspondance : pour un montant, le site propose la livraison par le biais de plusieurs fournisseurs possibles.
